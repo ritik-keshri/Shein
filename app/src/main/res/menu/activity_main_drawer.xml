@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New In" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="#SHEINss23" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sale" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/clothing"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/dress"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Dress" />
+        <item
+            android:id="@+id/tops"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tops" />
+        <item
+            android:id="@+id/beachwear"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Beachwear" />
+        <item
+            android:id="@+id/lingerie"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lingerie &amp; Lounge" />
+        <item
+            android:id="@+id/activewear"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Active Wear" />
+        <item
+            android:id="@+id/shoes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Shoes &amp; Accessories" />
+        <item
+            android:id="@+id/brands"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Brands" />
+        <item
+            android:id="@+id/explore"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Explore" />
+    </group>
+
+    <group>
+        <item android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting"/>
+
+        <item android:id="@+id/pwd"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Change Password"/>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout"/>
+    </group>
+</menu>
